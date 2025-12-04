@@ -55,7 +55,7 @@ export class FileTraceService {
                 Item: item,
             }),
         );
-
+        console.log('item: ', item)
         return item;
     }
 
